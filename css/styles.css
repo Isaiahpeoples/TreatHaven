@@ -517,6 +517,18 @@ Header
     var(--clr-primary)
   );
 }
+
+@media screen and (max-width: 576px) {
+  .header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../images/main-bcg.jpg") center/cover no-repeat;
+    position: relative;
+    /* animation */
+    overflow: hidden;
+  }
+}
+
 /* 
 ==============
 Skills

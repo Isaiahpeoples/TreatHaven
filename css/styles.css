@@ -794,7 +794,7 @@ Inventory
   background: var(--clr-primary);
   color: var(--clr-white);
   height: 100%;
-  border: 2px solid var(--clr-grey-1);
+  border: 3px solid var(--clr-grey-1);
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
@@ -830,7 +830,7 @@ Inventory
 .inventory:hover {
   color: var(--clr-primary);
   background: var(--clr-primary-light);
-  border: 2px solid var(--clr-grey-1);
+  border: 5px solid var(--clr-secondary);
   cursor: pointer;
 }
 
